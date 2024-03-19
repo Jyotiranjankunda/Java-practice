@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Five {
+public class Class05 {
   public static void main(String[] args) {
     /*
      * Pattern 1:

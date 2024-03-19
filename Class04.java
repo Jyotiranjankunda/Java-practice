@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fourth {
+public class Class04 {
   public static void main(String[] args) {
     // For loop
     System.out.println("Using for loop");
