@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Eight {
+public class Class08 {
   public static void main(String[] args) {
     // 2-D array
     // type[][] arrayName = new type[rows][cols]

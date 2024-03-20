@@ -1,4 +1,4 @@
-public class Twelve {
+public class Class12 {
   public static void main(String[] args) {
     // Bubble sort - T.c = O(n^2)
     int[] arr1 = { 7, 8, 3, 1, 2 };
@@ -12,7 +12,6 @@ public class Twelve {
         }
       }
     }
-
     for (int i = 0; i < arr1.length; i++) {
       System.out.print(arr1[i] + " ");
     }

@@ -1,4 +1,4 @@
-public class Eleven {
+public class Class11 {
   public static void main(String[] args) {
     // 1. Get bit
     // Bit mask = (1 << i) and then perform AND operation
