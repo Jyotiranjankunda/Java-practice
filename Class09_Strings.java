@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Class09 {
+public class Class09_Strings {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your full name : ");

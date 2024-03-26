@@ -1,4 +1,4 @@
-public class Class12 {
+public class Class12_Sorting {
   public static void main(String[] args) {
     // Bubble sort - T.c = O(n^2)
     int[] arr1 = { 7, 8, 3, 1, 2 };
@@ -38,12 +38,25 @@ public class Class12 {
     System.out.println();
 
     // Insertion sort : T.C. = O(n^2)
+    // array ke 2 parts honge, pehla sorted part, dusra unsorted part. 
+    // Pehle 1st element ko sorted array manenge, baki pure array ko unsorted array.
+    // unsorted array me traverse krenge aur har element ko sorted array se compare krke uski correct position me use place krenge.. i.e, sorted walo ko ek ek krke right ki taraf shift krke unsorted wale ko uski position tak le jayenge
+    
     int[] arr3 = {5,3,4,1,8,9};
     for(int i=1; i<arr3.length; i++){
       int current = arr3[i];
       int j = i-1;
-
-      
+      while (j >= 0 && current < arr3[j]) {
+        arr3[j+1] = arr3[j];
+        j--;
+      }
+      arr3[j+1] = current;
     }
+
+    for (int i = 0; i < arr3.length; i++) {
+      System.out.print(arr3[i] + " ");
+    }
+    System.out.println();
   }
 }
+

@@ -9,7 +9,7 @@ All source code is saved in .java file, and the compiler converts it into byte c
 2nd phase - Now, JVM takes the byte code and converts it into native language (i.e, machine language)
 */
 
-public class Class01 {
+public class Class01_HelloWorld {
   public static void main(String[] args) {
     System.out.print("Hello world");  // Next line will be printed in the same line
     System.out.println("Hello world");  // Next line will be printed in the next line.. just like \n

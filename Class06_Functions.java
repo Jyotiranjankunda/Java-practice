@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Class06 {
+public class Class06_Functions {
   // Q1: Find factorial of any number
   public static void factorial(int num){
     if(num < 0){

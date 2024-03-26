@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Class03 {
+public class Class03_IfElseSwitch {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your age : ");

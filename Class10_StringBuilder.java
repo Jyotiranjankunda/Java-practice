@@ -1,4 +1,4 @@
-public class Class10 {
+public class Class10_StringBuilder {
   public static void main(String[] args) {
     // StringBuilder
 

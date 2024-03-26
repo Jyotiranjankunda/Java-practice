@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Class07 {
+public class Class07_Arrays {
   public static void main(String[] args) {
     // Arrays
     int[] marks = new int[20];
