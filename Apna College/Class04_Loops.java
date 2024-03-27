@@ -24,6 +24,13 @@ public class Class04_Loops {
       j++;
     } while (j <= 10);
 
+    // For each loop
+    int[] arr = {6,7,3,61,8,3,20,79,8,2,67,56};
+    for(int val : arr){
+      System.out.print(val + " ");
+    }
+    System.out.println();
+
     // Sum of first n natural numbers;
     System.out.println("Enter n : ");
     Scanner sc = new Scanner(System.in);
