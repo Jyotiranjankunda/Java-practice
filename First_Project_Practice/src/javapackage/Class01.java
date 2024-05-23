@@ -1,10 +1,12 @@
 package javapackage;
 
 class Example{
-//	Instance(object) member variable
-	int x = 5;
+//	Instance/object/non-static member variable
+//	Here, x and y are instance variables, by default those variables which are not static they are instance/object variables.
+	
+	int x = 5; 
 	int y;
-	static int z = 10;
+	static int z = 10;  // It's memory will be reserved only once in the program.
 	private int w = 9;  // It will be not accessible outside this class.
 	
 	static void fun1() {
@@ -37,7 +39,6 @@ public class Class01 {
 //		Static methods can always call other static methods only. If the fun1 and fun2 are not static, then we can't call them from main method.
 		fun1();
 		fun2();
-		
 		
 //		For calling the static methods or variables of a class, we use ClassName.methodName();
 		Example.fun1();
