@@ -6,6 +6,7 @@ import java.util.Set;
 public class Class31_HashMap {
   public static void main(String[] args) {
     // Hashmap also works as unordered map
+    // Hashmap is internally implemented using array of linked lists
     HashMap<String, Integer> population = new HashMap<>();
 
     population.put("India", 120);
